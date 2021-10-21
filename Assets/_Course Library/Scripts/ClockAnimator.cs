@@ -14,22 +14,26 @@ public class ClockAnimator : MonoBehaviour
     public Transform hours, minutes, seconds;
 
     //Start is called before the first frame update
-    void Start()
+     void Start()
     {
-
+        
     }
+
 
     //Update is called once per frame 
     void Update()
     {
         DateTime time = DateTime.Now;
-
-        seconds.localRotation = Quaternion.Euler(time.Second *
+TimeSpan timeSpan = DateTime.Now.TimeOfDay;
+        seconds.localRotation = Quaternion.Euler((float)timeSpan.TotalSeconds *
             secondsToDegrees, 0f, 0f);
 
-        TimeSpan timeSpan = DateTime.Now.TimeOfDay;
+        
         hours.localRotation =
-            Quaternion.Euler((float)timeSpan.TotalHours * minutesToDegrees,
+            Quaternion.Euler((float)timeSpan.TotalHours * hoursToDegrees,
+            0f, 0f);
+        minutes.localRotation =
+            Quaternion.Euler((float)timeSpan.TotalMinutes * minutesToDegrees,
             0f, 0f);
     }
 }
