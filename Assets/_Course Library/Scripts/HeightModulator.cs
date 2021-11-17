@@ -8,7 +8,10 @@ public class HeightModulator : MonoBehaviour
     
     public void GoUp()
     {
-        cam.transform.position = new Vector3 (0, 0, 1.0f);
-        Debug.Log("Up");
+        Vector3 temp = transform.position;
+        temp.y = .3f;
+        transform.position = temp;
     }
 }
+cam.transform.position = new Vector3(0, .3f, 0);
+Debug.Log("Up");
