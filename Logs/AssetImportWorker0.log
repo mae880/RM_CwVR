@@ -1745,3 +1745,28 @@ Received Import Request.
 Start importing Assets/Tree_Textures/shadow.png using Guid(3ea69a6d8147eb141a5a2cbd4edf3a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3df3c061921e3788da97b74b93cf377') in 0.060795 seconds 
   Import took 0.090463 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 631.774705 seconds.
+  path: Assets/Challenges/03_Training
+  artifactKey: Guid(57d03b25e685d844587d1f7e9d1f308d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Challenges/03_Training using Guid(57d03b25e685d844587d1f7e9d1f308d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a986c093c282af044edca92e0492e68c') in 0.055220 seconds 
+  Import took 0.070615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.240103 seconds.
+  path: Assets/Challenges/03_Training/Scenes
+  artifactKey: Guid(e179596bfa920448b9c2de63391b29ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Challenges/03_Training/Scenes using Guid(e179596bfa920448b9c2de63391b29ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15307d6081b2849f11abba5a4dcedd41') in 0.068124 seconds 
+  Import took 0.087414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.501319 seconds.
+  path: Assets/Challenges/03_Training/Scenes/Training_Prototype_Broken.unity
+  artifactKey: Guid(e10ba84ccef4c43aa995ace104c1bf8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Challenges/03_Training/Scenes/Training_Prototype_Broken.unity using Guid(e10ba84ccef4c43aa995ace104c1bf8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9793ea2a3415a903b4da67e6e62cf426') in 0.018435 seconds 
+  Import took 0.047723 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
